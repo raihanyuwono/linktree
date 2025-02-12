@@ -3,16 +3,33 @@
   @apply w-full bg-background-secondary rounded-lg;
   @apply px-8 py-4;
   transition-property: color background-color;
-  transition-duration: .3s;
-  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.linktree-card-content {
+  @apply font-semibold;
+  @apply text-lg;
 }
 
 .linktree-card-container:hover {
   @apply text-accent-primary bg-accent-secondary;
+
+  .linktree-card-arrow {
+    animation-name: move-right;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+  }
 }
 
-
-.linktree-card-content {
-  @apply font-semibold;
-  @apply text-lg
+@keyframes move-right {
+  from {
+    transform: translateX(-16px);
+    opacity: 0%;
+  }
+  
+  to {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
 }
