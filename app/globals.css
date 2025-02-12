@@ -21,6 +21,7 @@
 
 body {
   @apply bg-background-primary text-foreground-primary;
+  background-image: url(/assets/images/bg.webp)
 }
 
 main {
