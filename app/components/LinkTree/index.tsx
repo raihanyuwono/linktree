@@ -12,7 +12,13 @@ function LinkTree() {
   return (
     <div className="linktree-container">
       <div className="linktree-logo">
-        <Image src={logo.src} alt={logo.alt} width={32} height={32} />
+        <Image
+          src={logo.src}
+          alt={logo.alt}
+          width={32}
+          height={32}
+          loading="lazy"
+        />
         <h1 className="linktree-title">LinkTree</h1>
       </div>
       {linktree.map((data, id) => (

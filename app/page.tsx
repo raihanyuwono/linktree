@@ -11,7 +11,13 @@ const bgImage = {
 export default function Home() {
   return (
     <div className="flex w-full h-full justify-center items-center">
-      <Image className="bg-image" src={bgImage.src} alt={bgImage.alt} fill />
+      <Image
+        className="bg-image"
+        src={bgImage.src}
+        alt={bgImage.alt}
+        loading="lazy"
+        fill
+      />
       <LinkTree />
     </div>
   );

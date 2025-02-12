@@ -23,6 +23,7 @@ function LinkTreeCard({ platform, content, url }: linktreeType) {
         alt={platform}
         width={24}
         height={24}
+        loading="lazy"
       />
       <div className="linktree-card-content">{content}</div>
     </Link>
