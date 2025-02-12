@@ -1,0 +1,27 @@
+[
+  {
+    "platform": "facebook",
+    "content": "Facebook",
+    "url": "https://www.facebook.com/raihan.yuwono.9/"
+  },
+  {
+    "platform": "instagram",
+    "content": "Instagram",
+    "url": "https://www.instagram.com/raihan_yuwono/"
+  },
+  {
+    "platform": "youtube",
+    "content": "YouTube",
+    "url": "https://www.youtube.com/@ze_rein/"
+  },
+  {
+    "platform": "linkedin",
+    "content": "LinkedIn",
+    "url": "https://www.linkedin.com/in/raihanyuwono/"
+  },
+  {
+    "platform": "github",
+    "content": "GitHub",
+    "url": "https://github.com/raihanyuwono/"
+  }
+]

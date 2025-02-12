@@ -1,0 +1,3 @@
+.bg-image {
+  @apply object-cover -z-10;
+}

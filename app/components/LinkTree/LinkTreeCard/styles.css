@@ -1,0 +1,18 @@
+.linktree-card-container {
+  @apply flex flex-row gap-2 justify-center;
+  @apply w-full bg-background-secondary rounded-lg;
+  @apply px-8 py-4;
+  transition-property: color background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+.linktree-card-container:hover {
+  @apply text-accent-primary bg-accent-secondary;
+}
+
+
+.linktree-card-content {
+  @apply font-semibold;
+  @apply text-lg
+}

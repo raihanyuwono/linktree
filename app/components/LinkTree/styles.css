@@ -1,0 +1,16 @@
+.linktree-container {
+  @apply h-auto w-full laptop:w-1/3;
+  @apply mx-8 tablet:mx-32 laptop:m-auto;
+  @apply z-10 px-8 py-8 rounded-lg;
+  @apply bg-background-card;
+  @apply flex flex-col;
+  @apply gap-4 items-center;
+}
+
+.linktree-logo {
+  @apply flex flex-row gap-1 items-center;
+}
+
+.linktree-title {
+  @apply font-bold text-xl font-mono;
+}
