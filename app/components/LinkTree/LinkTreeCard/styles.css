@@ -2,7 +2,8 @@
   @apply flex flex-row gap-2 justify-between;
   @apply w-full bg-background-secondary rounded-lg;
   @apply px-8 py-4;
-  transition-property: color background-color;
+  @apply border-2 border-background-secondary;
+  transition-property: color background-color border-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
@@ -13,12 +14,12 @@
 }
 
 .linktree-card-container:hover {
-  @apply text-accent-primary bg-accent-secondary;
+  @apply text-accent-primary bg-accent-secondary border-white;
 
   .linktree-card-arrow {
     animation-name: move-right;
     animation-timing-function: ease-out;
-    animation-duration: 1s;
+    animation-duration: .6s;
   }
 }
 
